@@ -8,6 +8,7 @@
 	margin: 0 auto;
 	margin-bottom: 5px;
 	padding: 1.5%;
+	height: 100%;
 }
 nav {
 	background-color: rgba(0, 0, 0, 0.20);
@@ -72,9 +73,13 @@ h3 {
 	letter-spacing: 0.08em;
 	text-indent: 450px;
 	text-shadow: 2px 2px 2px #000;
+	line-height: 1.2;
 }
 body {
 	background-color: #69776C;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
 }
 p {
 	font-family: Arial;	
