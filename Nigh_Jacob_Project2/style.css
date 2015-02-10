@@ -1,0 +1,113 @@
+#wrapper {
+	display: table;
+	margin: 0 auto;
+	width: 85%;
+}
+#navCenter	{
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 1.5%;
+}
+nav {
+	background-color: rgba(0, 0, 0, 0.20);
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 2px 2px 2px 2px;
+}
+.navHistory {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navInstruct {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navFlavors {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navGallery {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+a:link {
+	color: #E4FFE6;
+	text-decoration: none;
+}
+a:visited {
+	color: #125689;
+	text-decoration: none;
+}
+a:hover {
+	color: #D4FF00;
+	text-decoration: none;
+}
+a:active {
+ 	color: #E4FFE6;
+ 	text-decoration: none;
+}
+h1 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	color: #D4FF00;
+	text-align: center;
+	letter-spacing: 0.08em;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 2px #000;
+	
+	
+}
+h2 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	text-indent: 85px;
+	color: #D4FF00;
+	letter-spacing: 0.08em;
+	text-indent: 210px;
+	text-shadow: 2px 2px 2px #000;
+}
+h3 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	text-indent: 85px;
+	color: #D4FF00;
+	letter-spacing: 0.08em;
+	text-indent: 450px;
+	text-shadow: 2px 2px 2px #000;
+}
+body {
+	background-color: #69776C;
+}
+p {
+	font-family: Arial;	
+	text-align: justify;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+blockquote {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+ul {
+	list-style-type: square;
+}
+ol {
+	list-style-type: upper-roman;
+}
+div.img {
+	margin: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.img img {
+	display: inline;
+	margin: 5px;
+}
+div.description {
+	text-align: center;
+	width: 120px;
+	margin: 2px;
+}
