@@ -1,0 +1,135 @@
+/*-- wrapper to contain the page at a width of 85% of the screen --*/
+#wrapper {
+	display: table;
+	margin: 0 auto;
+	width: 85%;
+}
+/*-- Used to center the links to the center of the page --*/
+#navCenter	{
+	display: table;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 1.5%;
+	height: 100%;
+}
+/*-- Gives the links a box to fit in also in the center --*/
+nav {
+	background-color: rgba(0, 0, 0, 0.20);
+	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 2px 2px 2px 2px;
+}
+/*-- Classes to give the links to breath and to not be so close --*/
+.navHistory {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navInstruct {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navFlavors {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+.navGallery {
+	margin-left: 18px;
+	margin-right: 18px;
+}
+/*-- Links to give them color and make sure that none of them have an underline under it --*/
+a:link {
+	color: #E4FFE6;
+	text-decoration: none;
+}
+a:visited {
+	color: #125689;
+	text-decoration: none;
+}
+a:hover {
+	color: #D4FF00;
+	text-decoration: none;
+}
+a:active {
+ 	color: #E4FFE6;
+ 	text-decoration: none;
+}
+/*-- h1 tag with new font and centered also added a text shadow to give it depth --*/
+h1 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	color: #D4FF00;
+	text-align: center;
+	letter-spacing: 0.08em;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 2px #000;
+	
+	
+}
+/*-- h2 tag with new font and also indented it also added text shadow to give depth --*/
+h2 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	text-indent: 85px;
+	color: #D4FF00;
+	letter-spacing: 0.08em;
+	text-indent: 210px;
+	text-shadow: 2px 2px 2px #000;
+}
+/*-- h3 tag with new font also indented to give sense of importance also gave it text shadow to give depth --*/
+h3 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	text-indent: 85px;
+	color: #D4FF00;
+	letter-spacing: 0.08em;
+	text-indent: 450px;
+	text-shadow: 2px 2px 2px #000;
+	line-height: 1.2;
+}
+/*-- added background color to give better contrast made font just a tad bigger --*/
+body {
+	background-color: #69776C;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+}
+/*-- Made p tag font family arial and justified the text to fit the 85% width and centered it --*/
+p {
+	font-family: Arial;	
+	text-align: justify;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+/*-- added blockquote and gave it width of 75% to shrink a bit added margins for space --*/
+blockquote {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 35px;
+	margin-bottom: 25px;
+}
+/*-- Changed ul bullets to square --*/
+ul {
+	list-style-type: square;
+}
+ul.nostyle {
+	list-style-type: none;
+}
+/*-- Changed ol numbers to roman numerals --*/
+ol {
+	list-style-type: upper-roman;
+}
+/*-- These three hold the gallery centered the images horizontally and made the figcaption fit in a small box and centered the text --*/
+div.img {
+	margin: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.img img {
+	display: inline;
+	margin: 5px;
+}
+figcaption {
+	text-align: center;
+	width: 120px;
+	margin: 3px;
+}

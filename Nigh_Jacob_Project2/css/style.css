@@ -109,6 +109,9 @@ blockquote {
 ul {
 	list-style-type: square;
 }
+ul.nostyle {
+	list-style-type: none;
+}
 /*-- Changed ol numbers to roman numerals --*/
 ol {
 	list-style-type: upper-roman;
