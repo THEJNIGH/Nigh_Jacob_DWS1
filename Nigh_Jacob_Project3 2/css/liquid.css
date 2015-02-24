@@ -1,0 +1,152 @@
+/*-- All of the divs that gives the webpage the layout you see --*/
+#wrapper {
+	margin: 0 auto;
+	width: 85%;
+}
+
+#nav {
+	margin: 15px auto;
+	padding: 1%;
+	text-align: center;
+	background-image: url('../images/presence.png');
+	background-repeat: repeat;
+	background-position: center;
+}
+#block1 {
+	width: 24%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 2%;
+	color: #FFEB85;
+	background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.2));
+	border-radius: 14px;
+}
+#block2 {
+	width: 36%;
+	float: left;
+	margin: 2% 0 2% 2%;
+	padding: 2%;
+	color: #FFEB85;
+	background: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.2));
+	border-radius: 14px;
+	font-family: sans-serif;
+}
+#block3 {
+	width: 24%;
+	float: right;
+	margin: 2% 0 2% 2%;
+	padding: 2%;
+	color: #FFEB85;
+	background: linear-gradient(rgba(0,0,0,0.85), rgba(255,255,255,0.2));
+	border-radius: 14px;
+	font-family: sans-serif;
+}
+#footer {
+	clear: both;
+	margin: 15px auto;
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.85));
+	border-radius: 14px;
+	padding: 1%;
+	overflow: auto;
+}
+/*-- Main tags inside the webpage --*/
+body {
+	background-image: url("../images/back1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	color: #059C44;
+	text-align: center;
+	letter-spacing: 0.08em;
+	margin-bottom: 25px;
+	text-shadow: 2px 2px 2px #000;
+}
+h2 {
+	font-family:'Bilbo Swash Caps','Ranga', cursive, Arial Black, Arial, serif;
+	color: #059C44;
+	letter-spacing: 0.08em;
+	text-shadow: 2px 2px 2px #000;
+	text-indent: 2%;
+	text-align: center;
+}
+hr {
+	width: 75%;
+	display: block;
+	height: 2px;
+	border: 0; 
+	border-top: 1px solid #8FB259;
+}
+/*-- Classes to change certain things and to also style the webpage correctly --*/
+.line {
+	width: 65%;
+}
+.li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 1.5%;
+}
+.text {
+	font-family: 'Ranga', cursice, Arial Black, Arial, Sans-serif;
+	font-size: 1.125em;
+	color: #A0E867;
+	text-shadow: 2px 2px 2px #000;
+	letter-spacing: 0.08em;
+}
+.ul {
+	margin-top: 1.8%;
+	margin-bottom: 1.8%;
+	list-style-type: none;
+}
+.space {
+	margin-top: 1.25%;
+	margin-bottom: 1.25%;
+	list-style-type: square;
+	font-family: sans-serif;
+	color: #FFEB85;
+	text-shadow: 0px 0px 0px #000;
+	font-size: .80em;
+	letter-spacing: 0em;
+}
+/*-- Pseudo link classes --*/ 
+a:link {
+	color: #225378;
+	text-decoration: none;
+}
+a:visited {
+	color: #F3FFE2;
+	text-decoration: none;
+}
+a:hover {
+	color: #EB7F00;
+	text-decoration: none;
+}
+a:active {
+ 	color: #225378;
+ 	text-decoration: none;
+}
+/*-- For the image gallery --*/
+div.img {
+	margin: 5px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+div.img img {
+	display: inline;
+	margin: 5px;
+}
+figcaption {
+	text-align: center;
+	width: 120px;
+	margin: 3px;
+	background-color: rgba(255, 255, 255 ,0.45);
+	padding: 0.250em;
+}
